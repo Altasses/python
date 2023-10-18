@@ -23,6 +23,8 @@ if n > 10:
 maxCount = 0
 count = 0
 for i in data:
+    if not -50 < i < 50:
+        exit('ошибка данных')
     if i > 0:
         count += 1
     else:
