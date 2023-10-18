@@ -6,7 +6,7 @@
 # Output:
 # 2
 
-n = int(input('Cколько км проезжает за день? '))
-m = int(input('Весь путь в км '))
+n = int(input('Сколько км проезжает за день '))
+m = int(input('Весь путь '))
 
-print(m//n+(m%n != 0))
+print(m//n+(m%n !=0))
