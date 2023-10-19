@@ -6,7 +6,7 @@
 data = [int(i) for i in input('введите случайный ряд чисел: ').split()]
 print(data)
 
-print(len(set(data))) #set - множество
+#print(len(set(data))) #set - множество
 
 d = {} # то же самое но через словарь
 for i in data:
